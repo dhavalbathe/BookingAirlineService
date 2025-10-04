@@ -5,6 +5,7 @@ class AppError extends Error {
         explanation,
         statusCode
     ) {
+        super(message);
         this.name = name,
         this.message = message,
         this.explanation = explanation,
